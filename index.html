@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Collector Game</title>
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" href=font:italic
+        small-caps bold 24px Garamond, Georgia, Times, Serif;width:200px;>
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid" id="mainBox">
+
+
+        <div class="jumbotron">
+
+            <h1 class="text-center">Crystal Collector</h1>
+
+            <h2 class="text-center">Rules of the game</h2>
+
+            <p class="text-center">At the begining of the game you will be given a random number.
+
+            </p>
+            <p class="text-center">Choose a crystal to collect the points needed to match your given number.
+                Be warned though, choose wisely or the game will reset and so will the crystals!
+
+            </p>
+
+        </div>
+
+        <div class="row" id="gameSection">
+
+
+            <div class="col-md-3" id="numberSection">
+                <h3 class="text-center" id="random">Match this number:</h3>
+                <h1 class="numberBox text-center" id="randomNumber">100</h1>
+            </div>
+
+
+            <div class="col-md-6 text-center" id="buttonSection">
+
+
+                <button id="button-1" value="0"><img src="assets/images/images.jpg" class="img-responsive icons"
+                        id="icon1"></button>
+
+
+                <button id="button-2" value="0"><img src="assets/images/images (1).jpg" class="img-responsive icons"
+                        id="icon2"></button>
+
+
+                <button id="button-3" value="0"><img src="assets/images/images (2).jpg" class="img-responsive icons"
+                        id="icon3"></button>
+
+
+                <button id="button-4" value="0"><img src="assets/images/images (3).jpg" class="img-responsive icons"
+                        id="icon4"></button>
+
+            </div>
+
+
+            <div class="col-md-3" id="totalPoints">
+                <h3 class="text-center" id="score">Your Score:</h3>
+                <h1 class="numberBox text-center" id="totalNumber">0</h1>
+            </div>
+
+        </div>
+
+        <div class="row" id="scoreSection">
+
+
+            <div class="col-md-4"></div>
+
+
+            <div class="col-md-2" id="winSection">
+                <h3 class="text-center" id="wins">Wins: 0</h3>
+            </div>
+
+
+            <div class="col-md-2" id="lossSection">
+                <h3 class="text-center" id="losses">Losses: 0</h3>
+            </div>
+
+
+            <div class="col-md-4"></div>
+
+        </div>
+
+    </div>
+
+</body>
+
+<script src="assets/javascript/game.js"></script>
+
+</html>

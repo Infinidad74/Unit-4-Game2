@@ -1,0 +1,41 @@
+
+
+
+body {
+	background-color: black;
+}
+
+.jumbotron {
+	background-color: #972989;
+}
+
+#gameSection, #scoreSection {
+	background-color: #504186;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#buttonSection {
+	padding: 0px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+h1, h2, h3 {
+	font-family: 'Garamond', cursive;
+}
+
+.numberBox {
+	font-size: 100px;
+	margin: 0px;
+}
+
+.icons {
+	display: inline-block;
+  	max-width: 125px;
+  	max-height: 125px;
+  	width: auto;
+  	height: auto;
+  	margin:10px;
+}
